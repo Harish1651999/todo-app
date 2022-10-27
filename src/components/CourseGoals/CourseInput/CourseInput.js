@@ -20,6 +20,7 @@ const CourseInput = (props) => {
     }
     setEnteredValue(event.target.value);
   };
+
   return (
     <form onSubmit={formSubmitHandler}>
       <div
